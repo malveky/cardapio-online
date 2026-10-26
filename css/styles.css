@@ -1,0 +1,147 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mogra&family=Playpen+Sans:wght@100..800&display=swap');
+
+@font-face {
+    font-family:"abc" ;
+    src: url( ../fontes/Abecedary-Expanded.ttf);
+}
+
+body{
+ background-color: rgb(118, 189, 237);
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ text-align: center;
+ margin: 0;
+}
+  
+/*topo*/
+
+.topo{
+    background-color: rgb(11, 114, 232);
+    color: rgb(15, 4, 97);
+    padding:20px;
+}
+
+.topo img{
+    width: 200px;
+    margin-top: 15; /*Distancia de cima da imagem*/
+    border-radius: 15px;
+    transition:0.3s;
+}
+
+.topo img: :hover{
+    transform:scale(1.05);
+}
+ 
+/*seções*/
+
+.servicos, .pratos, .Cardapio{
+     background-color: rgb(232, 189, 68);
+     width:70%;
+     margin: 20px auto;
+     padding: 20px;
+     border-radius: 15px;
+     box-shadow: 3px 3px 10px;
+
+     font-family: "Playpen Sans", cursive;
+     font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+}
+
+tr:hover{
+     background-color: rgb(174, 211, 244);
+     transform: scale(1.05);
+     transition:0.3s;
+    /*Faz animaçao de selecionado*/
+}
+     
+.servicos:hover{
+    scale: 1.02;
+    transition: 0.3s;
+     box-shadow: 20px 30px 60px rgb(231, 214, 21);
+    }
+
+         
+.pratos:hover{
+    scale: 1.02;
+    transition: 0.3s;
+    box-shadow: 20px 30px 60px rgb(231, 228, 21);
+    }
+
+    .Cardapio:hover{
+    scale: 1.02;
+    transition: 0.3s;
+     box-shadow: 20px 30px 60px rgb(231, 224, 21);
+    }
+
+
+
+
+
+
+/*título*/
+h2{
+    color: rgb(8, 6, 104);
+     font-family: "Mogra", system-ui;
+     font-weight:500;
+     font-style: normal;
+     list-style-type: disc;
+}
+
+/* listas*/ 
+
+ul, ol{
+  text-align: left;
+  width: 50%;
+  margin: auto;
+  font-size: 20px;
+}
+
+
+    li{
+        margin: 15px;
+        transition: 0.3s;
+    
+    }
+        li:hover{
+     transform:scale(1.05);
+            
+        }
+
+    /* tabela*/ 
+    table{
+        width: 80%;
+        margin: auto;
+        border-collapse: collapse;
+    }
+    th{
+        background-color: rgb(69, 183, 240);
+        font-family: "abc";
+
+    }
+
+    th, td{
+        border:2px solid rgb(17, 6, 140);
+        padding: 20px;
+    }
+
+    tr :hover{
+        background-color: rgb(125, 201, 231);
+    }
+
+    footer{
+
+    background-color: rgb(63, 156, 243);
+    color: rgb(3, 26, 119);
+    padding: 15px
+    margin-top 30px;
+
+    }
+
+    .info{
+        text-align: left; 
+    }
+ 
